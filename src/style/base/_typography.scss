@@ -1,0 +1,39 @@
+
+.heading-primary{
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: $heading-color;
+    @include respond(tab-port){
+        font-size: 2.5rem; 
+    }
+    @include respond(phone){
+        font-size: 2rem; 
+    }
+    span{
+        color: $prep-blue-color;
+    }
+}
+
+
+
+.secondary-heading{
+    font-weight: normal;
+    // text-align: right;
+    font-size: 2.6rem;
+    display: block;
+    color: $heading-color;
+    
+    span{
+        display: block;
+        color: $prep-blue-color;
+        // text-align: right;
+        font-size: 2.5rem;
+        
+    }
+}
+
+.heading-tertiary{
+    font-weight: normal;
+    color: white;
+    font-size: 2.5rem;
+}
